@@ -32,17 +32,27 @@ $header:  #1D1425;
         background: transparent;
     }
 
+html {
+  height: 100%;
+}
+
 body {
+	height: 100%;
 	margin: 0;
 	padding: 0;
 /*	background: #b2b2b2;
 */	background: white;
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .site-wrapper {
 	padding: 0;
+
 	margin: 0px auto;
-	margin-top: 4vh;
+	margin-top: 12vh;
     width: $content-width;
 	max-width: $content-width-max;
 
@@ -54,8 +64,14 @@ body {
 	/*line-height: 1.6;*/
 	-webkit-font-smoothing: antialiased;
 
+  	flex: 1 0 auto;
+
 }
 
+.site-wrapper2 {
+	min-height: 100%;
+
+}
 .header {
 /*	max-width: $content-width;
 	background: $header;
@@ -69,8 +85,8 @@ body {
 	background-color: white;
 	width: $content-width;
 	max-width: $content-width-max;
-	margin-bottom: 5vw;
-	margin-top: 0;
+/*	margin-bottom: 3vw;
+*/	margin-top: 0;
 	padding: 0;
 
    -ms-box-orient: horizontal;
@@ -204,13 +220,19 @@ a:hover {
 }
 
 .content {
-	padding: 0 15px;
+	padding: 0;
+	margin: 0;
+	padding-top: 3vw;
+	padding-bottom: 3vw;
 /*	margin: 0 auto;
-*/	background-color: #f3f3f3;
+*/	background-color: white;
 }
 
 .footer {
 	text-align: center;
 /*	padding: 40px;
 */	background-color: #a2a2a2;
+  flex-shrink: 0;
+  	width: $content-width;
+	max-width: $content-width-max;
 }

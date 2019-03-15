@@ -2,6 +2,19 @@
 layout: default
 ---
 
-  <h2>Main Page</h2>
 
-  Main content goes here. 
+{% for post in site.posts limit:1 %}
+		
+
+	<h2>{{ post.title }}</h2>
+
+	{{ post.date | date: "%b %-d, %Y" }}
+	
+	{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+
+    {{ post.content }}
+
+{% endfor %}
+
+<!-- <p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+ -->
