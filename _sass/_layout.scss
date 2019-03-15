@@ -52,11 +52,11 @@ body {
 	padding: 0;
 
 	margin: 0px auto;
-	margin-top: 12vh;
+	margin-top: 3vh;
     width: $content-width;
 	max-width: $content-width-max;
 
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	color: $font-color;
 	font-family: $font-style;
@@ -226,6 +226,22 @@ a:hover {
 	padding-bottom: 3vw;
 /*	margin: 0 auto;
 */	background-color: white;
+}
+
+.post-title{
+	font-size: 1.5vw;
+	padding-bottom: 0.5vw;
+	font-weight: 600;
+}
+
+.post-date {
+	padding-bottom: 2vw;
+	font-size: 1vw;
+	font-style: italic;
+}
+
+.post-content {
+	font-size: 1vw;
 }
 
 .footer {
