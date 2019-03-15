@@ -1,0 +1,15 @@
+# Site Settings
+title: Stokes Lab
+email: markstokeslab@gmail.com
+description: >
+  A guide to getting started with Jekyll.
+baseurl: ""
+url: "https://stokeslab.github.io"
+twitter_username: stokeslab
+github_username:  stokeslab
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
