@@ -1,18 +1,20 @@
+
 $content-width: 60vw;
 $content-width-max: 60vw;
 $title-font-size: 7.5vw;
 $title-line-height: 12vw;
 $logo-size: 12vw;
 $main: #19CCAA;
-$font-style: 'Open Sans', sans-serif;
+$font-style: 'Roboto', sans-serif;
+$font-style-mono: 'Roboto Mono', monospace;
 $font-color: #262626;
-$link-color: black;
-$link-hover-color: $main;
+$link-color: #1645ff;
+$link-hover-color: red;
 $heading-font: 'Muli', sans-serif;
 $heading-font-color: #425469;
 $light: #E7EDF4;
 $header:  #1D1425;
-
+$pop-color: #1645ff;
 /**,
 *::before,
 *::after {
@@ -112,7 +114,7 @@ body {
 */  vertical-align: center;
   line-height: $title-line-height;
   text-decoration: none;
-	color: black;
+	color: $pop-color;
  /* background-color: green;*/
 }
 
@@ -169,14 +171,14 @@ body {
 /*	padding-right: 50px;
 */    background-color: white;
 	padding-top: 0.5vw;
-    border-top: 0.5vw solid black;
+    border-top: 0.5vw solid $pop-color;
     text-align: left;
     font-size: 1.5vw;
 }
 
 .menu-item:hover {
     /*background-color: #f2f2f2;*/
-    border-top: 0.5vw solid black;
+    border-top: 0.5vw solid $pop-color;
     color: red;
 }
 
@@ -230,25 +232,34 @@ a:hover {
 
 .post-title{
 	font-size: 1.5vw;
-	padding-bottom: 0.5vw;
-	font-weight: 600;
+	padding-bottom: 2vw;
+	/*font-weight: 600;*/
+	color: black;
+	font-family: $font-style-mono;
 }
 
 .post-date {
 	padding-bottom: 2vw;
 	font-size: 1vw;
-	font-style: italic;
+/*	font-style: italic;
+*/	font-family: $font-style-mono;
 }
 
 .post-content {
 	font-size: 1vw;
+	line-height: 1.5vw;
+	font-family: $font-style-mono;
 }
 
 .footer {
 	text-align: center;
 /*	padding: 40px;
-*/	background-color: #a2a2a2;
-  flex-shrink: 0;
+*/	background-color: white;
+  	flex-shrink: 0;
   	width: $content-width;
 	max-width: $content-width-max;
+	padding: 1vw 0;
+	font-family: $font-style;
+	font-size: 1vw;
+	border-top: 0.5vw solid $pop-color;
 }
