@@ -1,6 +1,6 @@
 
 
-$content-width-max: 920px;
+$content-width-max: 720px;
 $spacing-unit: 50px;
 
 $title-size: 70px; 
@@ -56,10 +56,10 @@ $header:  #1D1425;
 $pop-color: #0058bd;
 
 // Width of the content area
-$content-width:    900px;
+$content-width:    700px;
 
 $on-palm:          600px !default;
-$on-laptop:        900px !default;
+$on-laptop:        700px !default;
 
 $on-medium:        $on-palm !default;
 $on-large:         $on-laptop !default;
@@ -181,7 +181,8 @@ body {
 	@media screen and (min-width: $on-large) {
 		font-size: $title-size;
 		line-height: $title-line-height;
-	}
+/*		margin: 0 auto;
+*/	}
 }
 
 .site-title a, a:visited, a:hover{
@@ -201,7 +202,10 @@ body {
 	flex-direction: row;
 	  -webkit-justify-content: space-between; 
   	justify-content: space-between;
+
   	width: 100%;
+/*  	justify-content: center;
+  	text-align: center;*/
 }
 .logo img{
 	height: $logo-size-small;
@@ -213,6 +217,9 @@ body {
 
 .logo-img {
 	flex: 1;
+/*	
+/*	margin: 0 auto;
+	width: 100%;*/
 }
 
 
