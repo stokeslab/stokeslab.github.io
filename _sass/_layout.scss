@@ -1,12 +1,12 @@
 
 
-$content-width-max: 720px;
+$content-width-max: 920px;
 $spacing-unit: 50px;
 
 $title-size: 70px; 
 $title-line-height: $title-size * 1.8;
 
-$title-size-small: 10.5vw;
+$title-size-small: 10vw;
 $title-line-height-small: $title-size-small * 1.8;
 
 $logo-size: 120px;
@@ -56,10 +56,10 @@ $header:  #1D1425;
 $pop-color: #0058bd;
 
 // Width of the content area
-$content-width:    700px;
+$content-width:    900px;
 
 $on-palm:          600px !default;
-$on-laptop:        700px !default;
+$on-laptop:        900px !default;
 
 $on-medium:        $on-palm !default;
 $on-large:         $on-laptop !default;
@@ -256,7 +256,7 @@ text-transform: uppercase;
     background-color: white;
 	flex: 1;
 /*	width: 100%;
-*/	
+	
    /* flex-grow: 1;*/
 /*    flex-basis: 0;
 */    
