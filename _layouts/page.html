@@ -13,29 +13,30 @@
 		<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
-
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab:300|Roboto:200" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet"> 
 	</head> 
 
 
   <body>
 
+<!--   	<div class="site-wrapper2">
+ -->
 	<div class="site-wrapper">
 
 		<div class="header">
 		
-		<img src="/images/logo_small-01.png" alt="The Stokes Lab">
+		<div class="logo">
+		<div class="logo-img"><img src="/images/logo_small-01.png" alt="The Stokes Lab"></div>
 		
-		<a href="{{ site.baseurl }}"><div class="site-title">
-			
-			{{ site.title }}
-		</div></a>
+		<a href="{{ site.baseurl }}"><div class="site-title">{{ site.title }}</div></a>
 <!-- 			<div class="container">
- -->				
-				<div class="menu">
-					{% for page in site.pages %} {% if page.title %}
-					<div class="menu-item-wrapper"><a href="{{ page.url | prepend: site.baseurl }}"><div class="menu-item">{{ page.title }}</div></a></div>
-					{% endif %} {% endfor %}
-				</div>
+ -->	</div>
+		<div class="menu">
+			{% for page in site.pages %} {% if page.title %}
+			<div class="menu-item-wrapper"><a href="{{ page.url | prepend: site.baseurl }}"><div class="menu-item">{{ page.title }}</div></a></div>
+			{% endif %} {% endfor %}
+		</div>
 
 <!-- 			</div>
  -->		
@@ -45,13 +46,14 @@
 			{{ content }}
 		</div>
 
-		<div class="footer">
-			<p>By <a href="http://google.com">The Stokes Lab</p>
-		</div>
+		
 
 	</div>
-
-
+<!-- </div>
+ -->
+	<div class="footer">
+			&copy; Stokes Lab {{ 'now' | date: "%Y" }} | University of Oxford | website built using <a target="_blank" href="https://jekyllrb.com/">Jekyll</a> and <a target="_blank" href="https://pages.github.com/">GitHub Pages</a> 
+	</div>
 </body>
 
 
