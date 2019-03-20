@@ -46,6 +46,7 @@ $font-style: 'Roboto', sans-serif;
 /*$font-style: 'Share Tech Mono', monospace;
 *//*$font-style-mono: 'Roboto Mono', monospace;
 */$font-style-mono: 'Share Tech Mono', monospace;
+/*$font-style-mono: 'Helvetica';*/
 $font-color: black; /*#262626;*/
 $link-color: #0058bd;
 $link-hover-color: #f80073;
@@ -93,10 +94,10 @@ html {
 // Colors
 $bg-color: white;
 $dot-color: #3882E8;
-
+$dot-color: #d3d3d3;
 // Dimensions
 $dot-size: 1px;
-$dot-space: 15px;
+$dot-space: 5px;
 
 body {
 /*	height: 100%;
@@ -228,7 +229,7 @@ body {
   width: 100%;
 /*width: 700px;*/
 
-text-transform: uppercase;
+text-transform: lowercase;
 -ms-box-orient: horizontal;
   display: -webkit-box;
   display: -moz-box;

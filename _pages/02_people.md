@@ -1,10 +1,7 @@
 ---
-layout: page
+layout: default
 title: People
 permalink: /people/
 ---
 
-About content goes here.
-
-* A list item
-* Another list item
+Content goes here.

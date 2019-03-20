@@ -1,10 +1,7 @@
 ---
-layout: page
+layout: default
 title: Research
 permalink: /research/
 ---
 
-About content goes here.
-
-* A list item
-* Another list item
+Content goes here.
