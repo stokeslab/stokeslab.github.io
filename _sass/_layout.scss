@@ -4,7 +4,7 @@ $content-width-max: 720px;
 $spacing-unit: 50px;
 
 $title-size: 70px; 
-$title-size-small: 10.5vw;
+$title-size-small: 10vw;
 
 $title-line-height: $title-size * 1.8;
 $title-line-height-small: $title-size-small * 1.8;
@@ -176,7 +176,7 @@ body {
 	vertical-align: center;
 	line-height: $title-line-height-small;
 	text-decoration: none;
-	color: $pop-color;
+	color: red; /*$pop-color;*/
 	text-align: right;
 	flex: 1;
 	-webkit-flex: 1; /* Safari 6.1+ */
