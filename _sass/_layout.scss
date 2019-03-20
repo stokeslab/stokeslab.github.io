@@ -95,6 +95,7 @@ html {
 $bg-color: white;
 $dot-color: #3882E8;
 $dot-color: #d3d3d3;
+
 // Dimensions
 $dot-size: 1px;
 $dot-space: 5px;
@@ -116,12 +117,6 @@ body {
 		$dot-color;
 	background-size: $dot-space $dot-space;
 }
-
-
-
-
-
-
 
 
 .site-wrapper {
@@ -245,6 +240,8 @@ text-transform: lowercase;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: nowrap;
   
   -webkit-justify-content: space-between; 
   justify-content: space-between;
