@@ -176,7 +176,7 @@ body {
 	vertical-align: center;
 	line-height: $title-line-height-small;
 	text-decoration: none;
-	color: $pop-color;
+	color: red; /*$pop-color;*/
 	text-align: right;
 	flex: 1;
 	-webkit-flex: 1; /* Safari 6.1+ */
@@ -202,10 +202,11 @@ body {
 	display: -webkit-flex;
 	display: flex;
 	flex-wrap: nowrap;
+	-webkit-flex-wrap: nowrap;
 	flex-direction: row;
-	  -webkit-justify-content: space-between; 
+	-webkit-flex-direction: row;
   	justify-content: space-between;
-
+	-webkit-justify-content: space-between; 
   	width: 100%;
 /*  	justify-content: center;
   	text-align: center;*/
