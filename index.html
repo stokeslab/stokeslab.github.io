@@ -4,10 +4,10 @@ layout: default
 
 
 {% for post in site.posts limit:1 %}
-	 <div class="post-date">{{ post.date | date: "%-d %B, %Y" }}</div>
+	 
 <!-- 	<div class="post-title">{{ post.date | date: "%d/%m/%Y" }} &mdash; {{ post.title }}</div>
  -->	<div class="post-title">{{ post.title }}</div>
-
+<div class="post-date">{{ post.date | date: "%-d %B, %Y" }}</div>
 
 	<!-- <div class="post-date">{{ post.date | date: "%d/%m/%Y" }}</div> -->
 
