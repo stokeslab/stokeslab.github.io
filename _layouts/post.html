@@ -1,8 +1,52 @@
 ---
 layout: default
 ---
+	 
+<div class="post-title">{{ page.title }}</div>
 
-<h2>{{ page.title }}</h2>
-<time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
+<div class="post-date">{{ page.date | date: "%-d %B, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} </div>
 
-{{ content }}
+<div class="post-content">{{ content }}</div>
+
+<div class="post-button-wrapper">
+
+	<div class="post-button share-buttons">
+		<a href="https://twitter.com/intent/tweet?text={{page.title}}&url={{page.url}}&via=stokeslabox" rel="noopener" target="_blank" alt="Share on Twitter"><i class="fab fa-twitter-square"></i></a>
+
+		<a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{site.baseurl}}{{page.url}}" rel="noopener" target="_blank" alt="Share on Facebook"><i class="fab fa-facebook-square"></i></a>
+	</div>
+
+	<div class="post-button post-nav">		  
+		  {% if page.previous.url %}
+		    <div class="prev"><a class="prev" href="{{page.previous.url}}"><i class="fas fa-backward"></i> Older</a></div>
+		  {% endif %}
+		  {% if page.next.url %}
+		    <div class="next"><a class="next" href="{{page.next.url}}">Newer <i class="fas fa-forward"></i></a></div>
+		  {% endif %} 
+	</div>
+
+	<!-- <div class="post-button"><a href="{{site.url}}/blog-archive/">Post Archive</a></div> -->
+  	<div class="post-button"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS Feed</a></div>
+
+</div>
+
+
+
+
+<!-- 
+<h1 class="blog-archive"> Blog archive </h1>
+{% for post in site.posts %}
+	
+
+
+		<div class="archive-wrapper">
+			<div class="archive-date">{{ post.date | date: "%-d %B, %Y" }}</div>
+			<div class="archive-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+		</div>
+
+{% endfor %}
+
+<h1 class="blog-archive"> Subscribe </h1>
+<p>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+  -->
