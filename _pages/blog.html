@@ -4,13 +4,11 @@ title: Blog
 permalink: /blog/
 ---
 
-<<<<<<< HEAD
-
 
 <!-- <h1 class="blog-archive"> Latest post </h1>
  -->
 
-{% for post in site.posts limit:5 %}
+{% for post in site.posts %}
 	  <div class="blog-wrapper">
 <a href="{{ post.url | prepend: site.baseurl }}"><div class="post-title post-title-link">{{ post.title }}</div></a>
 <div class="post-date">{{ post.date | date: "%-d %B, %Y" }} {% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</div>
@@ -52,6 +50,3 @@ permalink: /blog/
 <h1 class="blog-archive"> Subscribe </h1>
 <p>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
  -->
-=======
-Blog.
->>>>>>> 3b61ad49bcc68c4a6dab5bdc0a9e08d9b7496b45
