@@ -16,7 +16,7 @@ $menu-right-padding: 30px;
 $menu-font-size: 18px;
 */
 
-$logo-size: 280px;
+$logo-size: 120px;
 $logo-size-small: 18vw;
 
 $menu-font-size: 20px;
@@ -118,7 +118,8 @@ $dot-space: 5px;
 body {
 	margin: 0;
 	padding: 0;
-	background: #f7f7f7; /*#f7f7f7;*/ /*#f5fbff;*/
+	/* background: #f7f7f7; /*#f7f7f7;*/ /*#f5fbff;*/  */
+	background:white
 	display: flex;
   	flex-direction: column;
   	justify-content: center;
@@ -134,7 +135,7 @@ body {
 
 .header-wrapper{
 	/* width=100%; */
-	width: 200%;
+	width: 300%;
 	margin: 0 auto;
 	background: white;
 
