@@ -127,7 +127,8 @@ body {
 
 
 .header-wrapper{
-	width: 100%;
+	/* width=100%; */
+	width: 200%;
 	margin: 0 auto;
 	background: white;
 
@@ -218,15 +219,17 @@ body {
 
 .undertitle{
 /*	outline: 1px solid red;
-*/	font-family: $font-style-mono;
-	text-shadow: 0.5px 0.5px gray;
-	font-size: 4.6vw;
+*/	/*font-family: $font-style-mono;*/
+	font-family: $font-style-serif;
+	/*text-shadow: 0.5px 0.5px gray; */
+	font-size: 5.6vw;
 	text-transform: uppercase;
-	vertical-align: center;
+	vertical-align: bottom;
 	line-height: 4.6vw;
 	text-decoration: none;
-	color: #d3d3d3; /*$pop-color;*/
-	text-align: center;
+	/*color: #d3d3d3; /*$pop-color; grey */ 
+	color: black;
+	text-align: bottom-left;
 	@media screen and (min-width: $on-large) {
 		text-shadow: 1px 1px gray;
 		font-size: 2.1rem;
