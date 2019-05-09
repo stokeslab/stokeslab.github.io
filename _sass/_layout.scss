@@ -10,8 +10,8 @@ $title-size-small: 9.5vw;
 $title-line-height: $title-size * 1;
 $title-line-height-small: $title-size-small * 1;
 
-$logo-size: 280px;
-$logo-size-small: 10vw;
+$logo-size: 120px;
+$logo-size-small: 18vw;
 
 $menu-font-size: 18px;
 $menu-font-size-small: 2.7vw;
@@ -128,7 +128,7 @@ body {
 
 .header-wrapper{
 	/* width=100%; */
-	width: 200%;
+	width: 100%;
 	margin: 0 auto;
 	background: white;
 
