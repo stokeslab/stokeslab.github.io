@@ -22,13 +22,6 @@ $logo-size-small: 18vw;
 $menu-font-size: 20px;
 $menu-font-size-small: 2.7vw;
 
-/*$menu-right-padding: 20px;
-$menu-right-padding-small: 3vw; */
-$menu-left-padding: 10px;
-
-$menu-right-padding: 40px;
-$menu-right-padding-small: 3vw;
-
 $menu-top-padding: 10px;
 $menu-top-padding-small: 2vw;
 
@@ -40,7 +33,7 @@ $menu-top-margin-small: 4vw;
 $menu-item-border: 1px
 $menu-item-border-small: 1px; /*1.5vw;*/
 
-$post-title-size: 40px;
+$post-title-size: 20px;
 $post-title-size-small: 5vw;
 
 $post-font-size: 15px;
@@ -294,7 +287,7 @@ box-shadow: 0 0px 5px white;
 	
 	width: 100%;
 	text-align: center;
-	background-color: #f7f7f7;
+	background-color: white /*#f7f7f7;*/
 /*	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0));
 */	/*background-image: linear-gradient(rgba(0,131,91,.5), rgba(0,131,91,0));*/
 	/*background-image: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,0));*/
