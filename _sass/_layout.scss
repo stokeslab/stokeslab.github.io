@@ -128,7 +128,7 @@ body {
 .header-wrapper{
 	width: 100%;
 	margin: 0 auto;
-	background: black;
+	background: $pop-color;
 
 	/*padding: 10px 0;*/
 	/*padding-top: $spacing-unit / 2;*/
@@ -733,6 +733,7 @@ p.pub {
 
 .post-title{
 	/*outline: 1px red solid;*/
+	
 	
 	padding: 0;
 	font-size: $post-title-size;
