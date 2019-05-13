@@ -11,10 +11,12 @@ permalink: /blog/
 {% for post in site.posts %}
 	  <div class="blog-wrapper">
 <a href="{{ post.url | prepend: site.baseurl }}"><div class="post-title post-title-link">{{ post.title }}</div></a>
+		  <a class="twitter-timeline" href="https://twitter.com/StokesLabOx?ref_src=twsrc%5Etfw">Tweets by StokesLabOx</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!--		  
 <div class="post-date">{{ post.date | date: "%-d %B, %Y" }} {% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</div>
 
     <div class="post-content post-excerpt">{{ post.excerpt }} [ <a href="{{ post.url | prepend: site.baseurl }}">...Read on...</a> ]</div>
-</div>
+</div> */ -->
 {% endfor %}
 
 <!-- <div class="fb-share-button" data-href="{{site.url}}{{page.url}}" data-layout="button_count" style="position: relative; top: -8px; left: 33px;"></div>
