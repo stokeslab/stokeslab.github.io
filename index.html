@@ -19,15 +19,18 @@ layout: default
 {% for post in site.posts limit:1 %}
 	 
 <a href="{{ post.url | prepend: site.baseurl }}"><div class="post-title post-title-link">{{ post.title }}</div></a>
-<div class="post-date">{{ post.date | date: "%-d %B, %Y" }}</div>
+<a class="twitter-timeline" href="https://twitter.com/StokesLabOx?ref_src=twsrc%5Etfw">Tweets by StokesLabOx</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<!-- 
+        <div class="post-date">{{ post.date | date: "%-d %B, %Y" }}</div>
 
 	{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
 
 	 <!-- <div class="post-content">{{ post.content }}</div> -->
 
 	<div class="post-content post-excerpt">{{ post.excerpt }} [ <a href="{{ post.url | prepend: site.baseurl }}">...Read on...</a> ]</div>
-	
+	-->
 
+	
 {% endfor %}
 
 </div>
