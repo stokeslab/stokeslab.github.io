@@ -1,5 +1,5 @@
 
-$content-width-max: 1100px;
+$content-width-max: 1000px;
 $spacing-unit: 80px;
 $spacing-unit-small: 6vw;
 
@@ -61,13 +61,13 @@ $heading-font: 'Palatino'; /*'Muli', sans-serif;*/
 $heading-font-color: #425469; 
 $light: #E7EDF4;
 $header:  #1D1425;
-$pop-color: #003D81; /*#002147;*/ /*#0058bd;*/
+$pop-color: #ffffff; /*#003D81;*/ /*#002147;*/ /*#0058bd;*/
 
 // Width of the content area
-$content-width:    1100px;
+$content-width:    1000px;
 
 $on-palm:          500px !default;
-$on-laptop:        1100px !default;
+$on-laptop:        1000px !default;
 
 $on-medium:        $on-palm !default;
 $on-large:         $on-laptop !default;
