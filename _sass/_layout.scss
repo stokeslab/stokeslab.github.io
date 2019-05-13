@@ -1,6 +1,6 @@
 
-$content-width-max: 1120px;
-$spacing-unit: 70px;
+$content-width-max: 1100px;
+$spacing-unit: 80px;
 $spacing-unit-small: 6vw;
 
 $title-size: 70px; 
@@ -9,10 +9,10 @@ $title-size-small: 9.5vw;
 $title-line-height: $title-size * 1;
 $title-line-height-small: $title-size-small * 1;
 
-$logo-size: 220px;
+$logo-size: 280px;
 $logo-size-small: 18vw;
 
-$menu-font-size: 18px;
+$menu-font-size: 24px;
 $menu-font-size-small: 2.7vw;
 
 $menu-right-padding: 10px;
@@ -42,7 +42,7 @@ $footer-size-small: 2.3vw;
 
 // fonts ---------------------- 
 
-$font-style: 'Inconsolata'; /*'Roboto', sans-serif;*/
+$font-style: 'Palatino'; /*'Inconsolata';*/ /*'Roboto', sans-serif;*/
 $font-style-mono: 'Share Tech Mono', monospace;
 
 //------------------
@@ -58,16 +58,16 @@ $font-color: black; /*#262626;*/
 $link-color: #0058bd;
 $link-hover-color: #425469; /*#FF5900;*/ /*#00835B;*/ /*#f80073;*/
 $heading-font: 'Palatino'; /*'Muli', sans-serif;*/
-$heading-font-color: #fffff0; 
+$heading-font-color: #425469; 
 $light: #E7EDF4;
 $header:  #1D1425;
 $pop-color: #003D81; /*#002147;*/ /*#0058bd;*/
 
 // Width of the content area
-$content-width:    1120px;
+$content-width:    1100px;
 
-$on-palm:          900px !default;
-$on-laptop:        1120px !default;
+$on-palm:          500px !default;
+$on-laptop:        1100px !default;
 
 $on-medium:        $on-palm !default;
 $on-large:         $on-laptop !default;
@@ -240,7 +240,7 @@ body {
 	
 	width: 100%;
 	text-align: center;
-	background-color: $pop-color;
+	background-color: white; /*$pop-color;*/
 /*	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0));
 */	/*background-image: linear-gradient(rgba(0,131,91,.5), rgba(0,131,91,0));*/
 	/*background-image: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,0));*/
