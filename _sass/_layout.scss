@@ -13,7 +13,7 @@ $logo-size: 280px;
 $logo-size-small: 18vw;
 
 $menu-font-size: 24px;
-$menu-font-size-small: 2.7vw;
+$menu-font-size-small: 6.7vw;
 
 $menu-right-padding: 10px;
 $menu-right-padding-small: 3vw;
@@ -30,7 +30,7 @@ $menu-item-border-small: 1px; /*1.5vw;*/
 $post-title-size: 20px;
 $post-title-size-small: 5vw;
 
-$post-font-size: 15px;
+$post-font-size: 25px;
 $post-font-size-small: 4vw;
 
 $footer-top-padding: 15px;
@@ -240,7 +240,7 @@ body {
 	
 	width: 100%;
 	text-align: center;
-	background-color: white; /*$pop-color;*/
+	background-color: $pop-color; /*white;*/
 /*	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0));
 */	/*background-image: linear-gradient(rgba(0,131,91,.5), rgba(0,131,91,0));*/
 	/*background-image: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,0));*/
