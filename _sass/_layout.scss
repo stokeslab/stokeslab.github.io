@@ -1,6 +1,6 @@
 
 /* $content-width-max: 720px; 520 */
-$content-width-max: 420px;
+$content-width-max: 520px;
 $spacing-unit: 50px;
 $spacing-unit-small: 6vw;
 
@@ -65,10 +65,10 @@ $header:  #1D1425;
 $pop-color: #003D81; /*#002147;*/ /*#0058bd;*/
 
 // Width of the content area
-$content-width:    400px; /* 500,400,500*/
+$content-width:    500px; /* 500,400,500*/
 
-$on-palm:          300px !default;
-$on-laptop:        400px !default;
+$on-palm:          400px !default;
+$on-laptop:        500px !default;
 
 $on-medium:        $on-palm !default;
 $on-large:         $on-laptop !default;
