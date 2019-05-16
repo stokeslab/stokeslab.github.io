@@ -943,8 +943,8 @@ h1.blog-archive {
 	border-top: 2px solid $pop-color;
 
 	@media screen and (min-width: $on-large) {
-		border-top-left-radius:100%;
-    	border-top-right-radius:100%;
+		border-top-left-radius:0%;
+    	border-top-right-radius:0%;
 		width: 100%;
 		/*max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
 		max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));*/
