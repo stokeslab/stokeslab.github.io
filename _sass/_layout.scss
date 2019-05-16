@@ -328,7 +328,7 @@ box-shadow: 0 0px 5px gray;
 
   @media screen and (min-width: $on-large) {
     font-size: $menu-font-size;
-	line-height: $menu-font-size * 2;
+	line-height: $menu-font-size * 1;
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
 	max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
 	margin: 0 auto;	
