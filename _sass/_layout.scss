@@ -547,12 +547,12 @@ h1.section-head {
 	*//*border-left: 1px dotted #d3d3d3;
 	*/
 	font-family: $font-style;
-	font-weight: 100;
+	font-weight: 70;
 	background-color: white;
 	box-shadow: 0px 0px 20px gray;
 
-	font-size: 1rem;
-	line-height: 1.2rem;
+	font-size: 0.7rem;
+	line-height: 1rem;
 
 	@media screen and (min-width: $on-large) {
 		font-size: 1.3rem;
