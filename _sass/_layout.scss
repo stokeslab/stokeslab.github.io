@@ -401,18 +401,17 @@ box-shadow: 0 0px 5px gray;
 
 
 // generic styles ----------------------------------------
-
 h1,
 h2,
 h3 {
-	font-weight: 300;
+	font-weight: 600;
 	color: black; /*$heading-font-color;*/
 	font-family: $heading-font;
-	line-height: 0.2;
+	line-height: 1.5;
 }
 h1 {
 	color: black; /*$main;*/
-	font-size: 0.9em;
+	font-size: 2.5em;
 	a,
 	a:visited {
 		text-decoration: none;
@@ -420,7 +419,7 @@ h1 {
 	}
 }
 h2 {
-	font-size: 0.9em;
+	font-size: 2em;
 }
 a,
 a:visited {
@@ -434,7 +433,7 @@ a:hover {
 }
 
 p {
-	margin: 10px 0;
+	margin: 30px 0;
 }
 
 iframe {
@@ -454,11 +453,11 @@ h1.section-head {
 /*	background-color: #f9f9f9;
 *//*	
 */	color: $pop-color;
-	padding-top: 5px;
+	padding-top: 10px;
 	font-family: $font-style-mono;
-	font-weight: 400;
-	font-size: 0.9rem;
-	line-height: 0.8rem;
+	font-weight: 600;
+	font-size: 1.4rem;
+	line-height: 1.4rem;
 	text-shadow: 1px 1px #d3d3d3;
 	border-top: 2px dotted $pop-color;
 
@@ -509,8 +508,8 @@ h1.section-head {
 	/*margin: $spacing-unit/4 0;*/
 /*	width: 100vw;
 */	font-family: $font-style;
-	font-size: 0.8rem;
-	line-height: 0.8rem;
+	font-size: 1rem;
+	line-height: 1.3rem;
 	flex-grow: 1;
 	flex-basis: fill;
 	@media screen and (min-width: $on-large) {
@@ -547,16 +546,16 @@ h1.section-head {
 	*//*border-left: 1px dotted #d3d3d3;
 	*/
 	font-family: $font-style;
-	font-weight: 80;
+	font-weight: 100;
 	background-color: white;
 	box-shadow: 0px 0px 20px gray;
 
-	font-size: 0.8rem;
-	line-height: 0.9rem;
+	font-size: 1rem;
+	line-height: 1.2rem;
 
 	@media screen and (min-width: $on-large) {
-		font-size: 0.8rem;
-		line-height: 0.9rem;
+		font-size: 1.3rem;
+		line-height: 1.5rem;
 		/*margin: $spacing-unit 0;*/
 	}
 	/*outline: 1px solid black;*/
@@ -580,7 +579,7 @@ h1.section-head {
 	/*outline: 1px solid red;*/
 	/*width: 100%;*/
 	/*margin-top: 50px;*/
-	margin: 10px;
+	margin: 30px;
 	/*text-shadow: 1px 1px 5px gray;*/
 	/*margin-left: 50px;*/
 }
@@ -766,13 +765,13 @@ p.pub {
 .post-content {
 /*	outline: 1px red solid;
 */	font-size: $post-font-size;
-	line-height: $post-font-size * 0.5;
+	line-height: $post-font-size * 1.5;
 	font-family: $font-style;
 	/*height: 100%;*/
 
 	@media screen and (min-width: $on-large) {
     	font-size: $post-font-size;
-    	line-height: $post-font-size * 0.5;
+    	line-height: $post-font-size * 1.5;
   	}
 
   	p {
@@ -839,9 +838,9 @@ p.pub {
 h1.blog-archive {
 	color: black;
 	font-family: $font-style;
-	font-weight: 500;
-	font-size: 0.8rem;
-	line-height: 0.8rem;
+	font-weight: 600;
+	font-size: 1.4rem;
+	line-height: 1.4rem;
 	margin: 30px 0;
 	padding-bottom: 5px;
 	border-bottom: 1px dotted #d3d3d3;
@@ -851,13 +850,13 @@ h1.blog-archive {
 .post-button-wrapper {
 /*	display: flex;
 */	  
-	margin-top: 5px;
+	margin-top: 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 
 	width: 100%; 
-	padding-top: 5px;
+	padding-top: 20px;
     border-top: 1px dotted #d3d3d3;
     /*border-top: 2px dotted $pop-color;*/
 	line-height: 30px;
