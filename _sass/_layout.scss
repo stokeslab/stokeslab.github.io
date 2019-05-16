@@ -19,7 +19,7 @@ $menu-font-size-small: 2.7vw;
 $menu-right-padding: 30px;
 $menu-right-padding-small: 3vw;
 
-$menu-top-padding: 14px;
+$menu-top-padding: 10px;
 $menu-top-padding-small: 2vw;
 
 $menu-top-margin: 30px;
@@ -31,7 +31,7 @@ $menu-item-border-small: 1px; /*1.5vw;*/
 $post-title-size: 20px;
 $post-title-size-small: 5vw;
 
-$post-font-size: 12px;
+$post-font-size: 15px;
 $post-font-size-small: 4vw;
 
 $footer-top-padding: 15px;
@@ -127,7 +127,7 @@ body {
 
 
 .header-wrapper{
-	width: 70%;
+	width: 100%;
 	margin: 0 auto;
 	background: white;
 
@@ -412,7 +412,7 @@ h3 {
 }
 h1 {
 	color: black; /*$main;*/
-	font-size: 0.7em;
+	font-size: 0.9em;
 	a,
 	a:visited {
 		text-decoration: none;
@@ -420,7 +420,7 @@ h1 {
 	}
 }
 h2 {
-	font-size: 0.5em;
+	font-size: 0.9em;
 }
 a,
 a:visited {
@@ -457,8 +457,8 @@ h1.section-head {
 	padding-top: 5px;
 	font-family: $font-style-mono;
 	font-weight: 400;
-	font-size: 0.8rem;
-	line-height: 0.7rem;
+	font-size: 0.9rem;
+	line-height: 0.8rem;
 	text-shadow: 1px 1px #d3d3d3;
 	border-top: 2px dotted $pop-color;
 
