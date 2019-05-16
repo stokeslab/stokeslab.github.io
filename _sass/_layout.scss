@@ -1,6 +1,6 @@
 
-/* $content-width-max: 720px; */
-$content-width-max: 520px;
+/* $content-width-max: 720px; 520 */
+$content-width-max: 720px;
 $spacing-unit: 50px;
 $spacing-unit-small: 6vw;
 
@@ -13,13 +13,13 @@ $title-line-height-small: $title-size-small * 1;
 $logo-size: 120px;
 $logo-size-small: 18vw;
 
-$menu-font-size: 14px;
+$menu-font-size: 18px;
 $menu-font-size-small: 2.7vw;
 
 $menu-right-padding: 30px;
 $menu-right-padding-small: 3vw;
 
-$menu-top-padding: 10px;
+$menu-top-padding: 14px;
 $menu-top-padding-small: 2vw;
 
 $menu-top-margin: 30px;
@@ -65,10 +65,10 @@ $header:  #1D1425;
 $pop-color: #003D81; /*#002147;*/ /*#0058bd;*/
 
 // Width of the content area
-$content-width:    500px;
+$content-width:    700px; /* 500,400,500*/
 
-$on-palm:          400px !default;
-$on-laptop:        500px !default;
+$on-palm:          600px !default;
+$on-laptop:        700px !default;
 
 $on-medium:        $on-palm !default;
 $on-large:         $on-laptop !default;
