@@ -5,18 +5,19 @@ permalink: /blog/
 ---
 
 
-<!-- <h1 class="blog-archive"> Latest post </h1>
+<!-- <h1 class="section-head"> Latest news and blogs </h1> -->
 
 
 {% for post in site.posts %}
 	  <div class="blog-wrapper">
-<a href="{{ post.url | prepend: site.baseurl }}"><div class="post-title post-title-link">{{ post.title }}</div></a>
-		  <a class="twitter-timeline" href="https://twitter.com/StokesLabOx?ref_src=twsrc%5Etfw">Tweets by StokesLabOx</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-	  
-<div class="post-date">{{ post.date | date: "%-d %B, %Y" }} {% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</div>
+		<a href="{{ post.url | prepend: site.baseurl }}"><div class="post-title post-title-link">{{ post.title }}</div></a>
+	
+		<div class="post-date">{{ post.date | date: "%-d %B, %Y" }} {% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</div>
 
-    <div class="post-content post-excerpt">{{ post.excerpt }} [ <a href="{{ post.url | prepend: site.baseurl }}">...Read on...</a> ]</div>
-</div> */ 
+		<!-- <div class="post-content post-excerpt">{{ post.excerpt }} [ <a href="{{ post.url | prepend: site.baseurl }}">...Read on...</a> ]</div> -->
+
+		<div class="post-content">{{ post.content }} </div>
+</div> 
 {% endfor %}
 
 <!-- <div class="fb-share-button" data-href="{{site.url}}{{page.url}}" data-layout="button_count" style="position: relative; top: -8px; left: 33px;"></div>
@@ -35,7 +36,7 @@ permalink: /blog/
 	<a href="{{site.url}}/blog-archive/">Blog archive</a>
 	<p>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div> -->
+</div>
 
 <!-- <h1 class="blog-archive"> Blog archive </h1>
 {% for post in site.posts %}
