@@ -11,3 +11,5 @@ Congratulations to Dante for passing his doctoral viva voce examination on Monda
 <div class="logos">
 	<div ><img src="/images/VivaDante.jpg"></div>
  </div>
+
+And warmest congratulations on the birth of his adorable baby girl, Gala Isabel!
