@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Congratulation Jake Stroud!"
+title:  "Congratulation Jake!"
 ---
 
-Congratulation Jake Stroud! Awarded the Wellcome Trust Fellowship!
+Congratulations go to Jake Stroud on being awarded the Wellcome Trust Fellowship, well done!
