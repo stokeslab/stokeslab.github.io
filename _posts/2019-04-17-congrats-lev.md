@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Congratulations Lev!"
+title:  "Congratulations to Lev!"
 ---
 
 Dr Tankelevitch successfully passed his doctoral viva voce examination, congratulations!
