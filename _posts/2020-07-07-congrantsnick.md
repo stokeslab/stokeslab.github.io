@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nicholas awarded University Research Lectureship!"
+title:  "Nicholas awarded University Research Lectureship"
 ---
 
 Congratulations to Nicholas Myers on being awarded the title of University Research Lecturer! 
